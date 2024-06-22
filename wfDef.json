@@ -1,0 +1,362 @@
+{
+    "name": "pipboy",
+    "id": "266210095",
+    "previewImg": "preview",
+    "elementsNormal": [
+        {
+            "type": "element",
+            "x": 0,
+            "y": 0,
+            "image": "Background"
+        },
+        {
+            "name": "steps_progressbar",
+            "type": "widge_imagelist",
+            "x": 0,
+            "y": 394,
+            "dataSrc": "0841",
+            "imageList": [
+                "steps_08",
+                "steps_18",
+                "steps_28",
+                "steps_38",
+                "steps_48",
+                "steps_58",
+                "steps_68",
+                "steps_78",
+                "steps_88"
+            ],
+            "imageIndexList": [
+                0,
+                12.5,
+                25,
+                37.5,
+                50,
+                62,
+                5,
+                75,
+                87.5,
+                100
+            ]
+        },
+        {
+            "name": "steps",
+            "type": "widge_dignum",
+            "x": 78,
+            "y": 404,
+            "showCount": 5,
+            "spacing": -20,
+            "align": 1,
+            "showZero": false,
+            "dataSrc": "0821",
+            "imageList": [
+                "info_0",
+                "info_1",
+                "info_2",
+                "info_3",
+                "info_4",
+                "info_5",
+                "info_6",
+                "info_7",
+                "info_8",
+                "info_9"
+            ]
+        },
+        {
+            "name": "heartbeat",
+            "type": "widge_dignum",
+            "x": 44,
+            "y": 347,
+            "showCount": 3,
+            "spacing": -20,
+            "align": 1,
+            "showZero": false,
+            "dataSrc": "0822",
+            "imageList": [
+                "info_0",
+                "info_1",
+                "info_2",
+                "info_3",
+                "info_4",
+                "info_5",
+                "info_6",
+                "info_7",
+                "info_8",
+                "info_9"
+            ]
+        },
+        {
+            "name": "calories",
+            "type": "widge_dignum",
+            "x": 120,
+            "y": 347,
+            "showCount": 4,
+            "spacing": -20,
+            "align": 1,
+            "showZero": false,
+            "dataSrc": "0823",
+            "imageList": [
+                "info_0",
+                "info_1",
+                "info_2",
+                "info_3",
+                "info_4",
+                "info_5",
+                "info_6",
+                "info_7",
+                "info_8",
+                "info_9"
+            ]
+        },
+        {
+            "name": "steps_vaultboy",
+            "type": "widge_imagelist",
+            "x": 0,
+            "y": 150,
+            "dataSrc": "0841",
+            "imageList": [
+                "vaultboy_0",
+                "vaultboy_1",
+                "vaultboy_2"
+            ],
+            "imageIndexList": [
+                0,
+                50,
+                100
+            ]
+        },
+        {
+            "name": "hours",
+            "type": "widge_dignum",
+            "x": 15,
+            "y": 60,
+            "showCount": 2,
+            "spacing": -40,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1012",
+            "imageList": [
+                "clock_0",
+                "clock_1",
+                "clock_2",
+                "clock_3",
+                "clock_4",
+                "clock_5",
+                "clock_6",
+                "clock_7",
+                "clock_8",
+                "clock_9"
+            ]
+        },
+        {
+            "name": "minutes",
+            "type": "widge_dignum",
+            "x": 90,
+            "y": 60,
+            "showCount": 2,
+            "spacing": -40,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1812",
+            "imageList": [
+                "clock_0",
+                "clock_1",
+                "clock_2",
+                "clock_3",
+                "clock_4",
+                "clock_5",
+                "clock_6",
+                "clock_7",
+                "clock_8",
+                "clock_9"
+            ]
+        },
+        {
+            "name": "months",
+            "type": "widge_imagelist",
+            "x": 103,
+            "y": 112,
+            "align": 1,
+            "dataSrc": "1012",
+            "imageList": [
+                "month_1",
+                "month_2",
+                "month_3",
+                "month_4",
+                "month_5",
+                "month_6",
+                "month_7",
+                "month_8",
+                "month_9",
+                "month_10",
+                "month_11",
+                "month_12"
+            ]
+        },
+        {
+            "name": "days",
+            "type": "widge_dignum",
+            "x": 127,
+            "y": 112,
+            "showCount": 2,
+            "spacing": -22,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1812",
+            "imageList": [
+                "info_0",
+                "info_1",
+                "info_2",
+                "info_3",
+                "info_4",
+                "info_5",
+                "info_6",
+                "info_7",
+                "info_8",
+                "info_9"
+            ]
+        },
+        {
+            "name": "weekday",
+            "type": "widge_imagelist",
+            "x": 40,
+            "y": 112,
+            "align": 1,
+            "dataSrc": "1012",
+            "imageList": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri",
+                "sat",
+                "sun"
+            ]
+        },
+        {
+            "name": "battery",
+            "type": "widge_imagelist",
+            "x": 65,
+            "y": -8,
+            "dataSrc": "0841",
+            "imageList": [
+                "bat_0",
+                "bat_20",
+                "bat_40",
+                "bat_60",
+                "bat_80",
+                "bat_100"
+            ]
+        }
+    ],
+    "elementsAod": [
+        {
+            "name": "hours",
+            "type": "widge_dignum",
+            "x": 15,
+            "y": 202,
+            "showCount": 2,
+            "spacing": -40,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1012",
+            "imageList": [
+                "clock_0",
+                "clock_1",
+                "clock_2",
+                "clock_3",
+                "clock_4",
+                "clock_5",
+                "clock_6",
+                "clock_7",
+                "clock_8",
+                "clock_9"
+            ]
+        },
+        {
+            "name": "minutes",
+            "type": "widge_dignum",
+            "x": 90,
+            "y": 202,
+            "showCount": 2,
+            "spacing": -40,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1812",
+            "imageList": [
+                "clock_0",
+                "clock_1",
+                "clock_2",
+                "clock_3",
+                "clock_4",
+                "clock_5",
+                "clock_6",
+                "clock_7",
+                "clock_8",
+                "clock_9"
+            ]
+        },
+        {
+            "name": "months",
+            "type": "widge_imagelist",
+            "x": 103,
+            "y": 252,
+            "align": 1,
+            "dataSrc": "1012",
+            "imageList": [
+                "month_1",
+                "month_2",
+                "month_3",
+                "month_4",
+                "month_5",
+                "month_6",
+                "month_7",
+                "month_8",
+                "month_9",
+                "month_10",
+                "month_11",
+                "month_12"
+            ]
+        },
+        {
+            "name": "days",
+            "type": "widge_dignum",
+            "x": 127,
+            "y": 252,
+            "showCount": 2,
+            "spacing": -22,
+            "align": 1,
+            "showZero": true,
+            "dataSrc": "1812",
+            "imageList": [
+                "info_0",
+                "info_1",
+                "info_2",
+                "info_3",
+                "info_4",
+                "info_5",
+                "info_6",
+                "info_7",
+                "info_8",
+                "info_9"
+            ]
+        },
+        {
+            "name": "weekday",
+            "type": "widge_imagelist",
+            "x": 40,
+            "y": 252,
+            "align": 1,
+            "dataSrc": "1012",
+            "imageList": [
+                "mon",
+                "tue",
+                "wed",
+                "thu",
+                "fri",
+                "sat",
+                "sun"
+            ]
+        }
+    ]
+}
